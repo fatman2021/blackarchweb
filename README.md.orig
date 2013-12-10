@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+blackarchlinuxweb
+=================
+
+blackarchlinuxweb
+=======
 # Archweb README
 
 To get a pretty version of this document, run
@@ -78,3 +84,4 @@ needed.
 Ask someone who knows, or you are going to be in trouble.
 
 vim: set syntax=markdown et:
+>>>>>>> upstream/master
