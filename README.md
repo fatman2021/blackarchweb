@@ -1,4 +1,4 @@
-# BlacArchLinuxweb README
+# BlackArchLinuxweb README
 
 To get a pretty version of this document, run
 
