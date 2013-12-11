@@ -1,7 +1,7 @@
 # BlackArchLinuxweb README
 
 This is a fork of archweb
-git://code.toofishes.net/dan/archweb.git
+        git://code.toofishes.net/dan/archweb.git
 
 To get a pretty version of this document, run
 
