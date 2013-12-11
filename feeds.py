@@ -76,7 +76,7 @@ class PackageFeed(Feed):
         return obj
 
     def title(self, obj):
-        s = 'Arch Linux: Recent package updates'
+        s = 'BlackArchLinux: Recent package updates'
         if 'repo' in obj and 'arch' in obj:
             s += ' (%s [%s])' % (obj['arch'].name, obj['repo'].name.lower())
         elif 'repo' in obj:
@@ -86,7 +86,7 @@ class PackageFeed(Feed):
         return s
 
     def description(self, obj):
-        s = 'Recently updated packages in the Arch Linux package repositories'
+        s = 'Recently updated packages in the BlackArchLinux package repositories'
         if 'arch' in obj:
             s += ' for the \'%s\' architecture' % obj['arch'].name.lower()
             if not obj['arch'].agnostic:
@@ -131,9 +131,9 @@ def news_last_modified(request, *args, **kwargs):
 class NewsFeed(Feed):
     feed_type = GuidNotPermalinkFeed
 
-    title = 'Arch Linux: Recent news updates'
+    title = 'BlackArchLinux: Recent news updates'
     link = '/news/'
-    description = 'The latest and greatest news from the Arch Linux distribution.'
+    description = 'The latest and greatest news from the BlackArchLinux distribution.'
     subtitle = description
     description_template = 'feeds/news_description.html'
 
@@ -163,7 +163,7 @@ class NewsFeed(Feed):
 class ReleaseFeed(Feed):
     feed_type = GuidNotPermalinkFeed
 
-    title = 'Arch Linux: Releases'
+    title = 'BlackArchLinux: Releases'
     link = '/download/'
     description = 'Release ISOs'
     subtitle = description
