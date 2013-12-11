@@ -125,22 +125,12 @@
             title="Community and developer mailing lists">Mailing Lists</a></li>
         <li><a href="https://wiki.archlinux.org/index.php/IRC_Channels"
             title="Official and regional IRC communities">IRC Channels</a></li>
- <!--       <li><a href="https://planet.archlinux.org/"
-            title="Arch in the blogosphere">Planet Arch</a></li> -->
- <!--       <li><a href="https://wiki.archlinux.org/index.php/International_Communities"
-            title="Arch communities in your native language">International Communities</a></li> -->
     </ul>
 
     <h4>Support</h4>
 
     <ul>
         <li><a href="{% url 'page-donate' %}" title="Help support BlackArchLinux">Donate</a></li>
-<!--        <li><a href="http://schwag.archlinux.ca/"
-            title="USB keys, jewellery, case badges">Arch Schwag</a></li>
-        <li><a href="http://www.zazzle.com/archlinux*"
-            title="T-shirts, mugs, mouse pads, hoodies, posters, skateboards, shoes, etc.">Products via Zazzle</a></li>
-        <li><a href="http://www.freewear.org/?page=list_items&amp;org=Archlinux"
-            title="T-shirts">T-shirts via Freewear</a></li> -->
     </ul>
 
     <h4>Tools</h4>
@@ -161,8 +151,8 @@
     <ul>
         <li><a href="https://projects.archlinux.org/"
             title="Official Arch projects (git)">Projects in Git</a></li>
-   <!--     <li><a href="{% url 'page-svn' %}"
-            title="View SVN entries for packages">SVN Repositories</a></li> -->
+   {% comment %}     <li><a href="{% url 'page-svn' %}"
+            title="View SVN entries for packages">SVN Repositories</a></li> {% comment %}
         <li><a href="https://wiki.archlinux.org/index.php/DeveloperWiki"
             title="Developer Wiki articles">Developer Wiki</a></li>
         <li><a href="/groups/"
@@ -182,7 +172,7 @@
             title="Package/Database signing master keys">Signing Master Keys</a></li>
         <li><a href="https://wiki.archlinux.org/index.php/Arch_Linux_Press_Review"
             title="BlackArchLinux in the media">Press Coverage</a></li>
-   <!--     <li><a href="{% url 'page-art' %}" title="Arch logos and other artwork for promotional use">Logos &amp; Artwork</a></li> -->
+   {% comment %}     <li><a href="{% url 'page-art' %}" title="Arch logos and other artwork for promotional use">Logos &amp; Artwork</a></li> {% endcomment %}
         <li><a href="{% url 'news-list' %}" title="News Archives">News Archives</a></li>
         <li><a href="/feeds/" title="Various RSS Feeds">RSS Feeds</a></li>
         <li><a href="{% url 'page-devs' %}" title="Active developers">Developer Profiles</a></li>
@@ -198,14 +188,14 @@
     </a>
 </div>
 
-<!-- <div id="arch-sponsors" class="widget">
+{% comment %} <div id="arch-sponsors" class="widget">
     <a href="http://www.velocitynetwork.net/?hosting_by=ArchLinux" title="Velocity Network">
         <img width="252" height="58" src="{% static "vnet_button.png" %}" alt="Velocity Network - It's about time" />
     </a>
     <a href="http://www.airvm.com/ArchLinux" title="AirVM.com - Your Green Technology Partner">
         <img width="252" height="58" src="{% static "airvm_button.png" %}" alt="AirVM.com - Your Green Technology Partner" />
     </a>
-</div> -->
+</div> {% endcomment %}
 {% endcache %}
 {% endblock %}
 
