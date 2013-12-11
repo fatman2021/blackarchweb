@@ -1,4 +1,4 @@
-### Django settings for archlinux project.
+### Django settings for blackarchlinux project.
 
 ## Debug settings
 DEBUG = False
@@ -17,9 +17,9 @@ ADMINS = (
 #DATABASES = {
 #    'default': {
 #        'ENGINE'  : 'django.db.backends.postgresql_psycopg2',
-#        'NAME'    : 'archlinux',
-#        'USER'    : 'archlinux',
-#        'PASSWORD': 'archlinux',
+#        'NAME'    : 'blackarchlinux',
+#        'USER'    : 'blackarchlinux',
+#        'PASSWORD': 'blackarchlinux',
 #        'HOST'    : '',
 #        'PORT'    : '',
 #    },
