@@ -453,6 +453,10 @@ table thead th.sorter-false {
             margin-bottom: 0.5em;
         }
 
+		#news dt{
+			color:#ff0000
+		}
+
     #news .more {
         font-weight: normal;
     }
@@ -503,9 +507,9 @@ h3 span.arrow {
 /* home: pkgsearch box */
 #pkgsearch {
     padding: 1em 0.75em;
-    background: #3ad;
-    color: #fff;
-    border: 1px solid #08b;
+    background: #262626;
+    color: #ff0000;
+    border: 1px solid #ff0000;
 }
 
     #pkgsearch label {
