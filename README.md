@@ -20,7 +20,7 @@ See AUTHORS file.
 # Python dependencies
 
 More detail in `requirements.txt` and `requirements_prod.txt`; it is best to
-use virtualenv and pip to handle these. But if you insist on (Arch Linux)
+use virtualenv and pip to handle these. But if you insist on (BlackArchLinux)
 packages, you will probably want the following:
 
 - django

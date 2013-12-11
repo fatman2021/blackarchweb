@@ -85,7 +85,7 @@ class FindUserTest(TestCase):
         self.assertEqual(self.user2,
                 self.finder.find("John"))
         self.assertEqual(self.user3,
-                self.finder.find("Bob Jones <bjones AT Arch Linux DOT org>"))
+                self.finder.find("Bob Jones <bjones AT BlackArchLinux DOT org>"))
 
     def test_by_invalid(self):
         self.assertEqual(self.user1,
@@ -103,7 +103,7 @@ class FindUserTest(TestCase):
             self.assertEqual(self.user1,
                     self.finder.find("XXX YYY <user1@example.com>"))
             self.assertEqual(self.user3,
-                    self.finder.find("Bob Jones <bjones AT Arch Linux DOT org>"))
+                    self.finder.find("Bob Jones <bjones AT BlackArchLinux DOT org>"))
 
     def test_ambiguous(self):
         self.assertEqual(self.user4,
