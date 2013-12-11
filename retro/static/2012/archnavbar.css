@@ -14,7 +14,7 @@
 /* IE6 doesn't support alpha PNGs so we serve it a GIF */
 #archnavbarlogo { background: url('archlogo.gif') no-repeat !important; }
 /* and use a proper PNG for all other modern browsers */
-html > body #archnavbarlogo { background: url('blackarchlogo-clear.png') no-repeat !important; }
+html > body #archnavbarlogo { background: url('blackarchlinux-clear.png') no-repeat !important; }
 
 /* move the heading/paragraph text offscreen */
 #archnavbarlogo p { margin: 0 !important; padding: 0 !important; text-indent: -9999px !important; }
