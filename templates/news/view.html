@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Arch Linux - News: {{ news.title }}{% endblock %}
+{% block title %}BlackArchLinux - News: {{ news.title }}{% endblock %}
 
 {% block content %}
 <div itemscope itemtype="http://schema.org/Article" class="news-article box">
@@ -13,7 +13,7 @@
         <meta itemprop="name" content="{{ news.author.get_full_name|escape }}"/>
     </div>
     <div style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="Arch Linux"/>
+        <meta itemprop="name" content="BlackArchLinux"/>
     </div>
 
     {% if perms.news.change_news %}
