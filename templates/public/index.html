@@ -134,13 +134,10 @@
     <h4>Tools</h4>
 
     <ul>
-    {$ comment %}    <li><a href="{% url 'mirrorlist' %}" title="Get a custom mirrorlist from our database">Mirrorlist Updater</a></li> {% endcomment %}
         <li><a href="{% url 'mirror-list' %}"
             title="See a listing of all available mirrors">Mirror List</a></li>
         <li><a href="{% url 'mirror-status' %}"
             title="Check the status of all known mirrors">Mirror Status</a></li>
-    {$ comment %}    <li><a href="{% url 'packages-differences' %}"
-            title="See differences in packages between available architectures">Differences Reports</a></li> {% endcomment %}
     </ul>
 
     <h4>Development</h4>
