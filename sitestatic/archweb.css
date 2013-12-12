@@ -482,7 +482,7 @@ table thead th.sorter-false {
 /* home: arrowed headings */
 #news h3 a {
     display: block;
-    background: #1794D1;
+    background: ##0d0d0d;
     font-size: 15px;
     padding: 2px 10px;
     color: white;
@@ -498,7 +498,7 @@ h3 span.arrow {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #1794D1;
+    border-top: 6px solid #0d0d0d;
     margin: 0 auto;
     font-size: 0;
     line-height: 0px;
