@@ -159,7 +159,7 @@ PGP_SERVER = 'pgp.mit.edu:11371'
 ISO_LIST_URL = 'https://releng.blackarchlinux.org/isos/'
 
 # URL to the PXE netboot instructions
-PXEBOOT_URL = 'https://releng.blackarchlinux.org/pxeboot/'
+#PXEBOOT_URL = 'https://releng.blackarchlinux.org/pxeboot/'
 
 # URL for SVN access for fetching commit messages (note absence of packages or
 # community bit on the end, repo.svn_root is appended)
@@ -168,10 +168,10 @@ PXEBOOT_URL = 'https://releng.blackarchlinux.org/pxeboot/'
 # SVN_BASE_URL = 'svn://svn.blackarchlinux.org/'
 
 # Trackers used for ISO download magnet links
-TORRENT_TRACKERS = (
-    'udp://tracker.blackarchlinux.org:6969',
-    'http://tracker.blackarchlinux.org:6969/announce',
-)
+#TORRENT_TRACKERS = (
+#    'udp://tracker.blackarchlinux.org:6969',
+#    'http://tracker.blackarchlinux.org:6969/announce',
+#)
 
 ## Import local settings
 from local_settings import *
