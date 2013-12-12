@@ -507,7 +507,7 @@ h3 span.arrow {
 /* home: pkgsearch box */
 #pkgsearch {
     padding: 1em 0.75em;
-    background: #262626;
+    background: #0d0d0d;
     color: #ff0000;
     border: 1px solid #ff0000;
 }
@@ -522,7 +522,7 @@ h3 span.arrow {
         float: right;
         font-size: 1em;
         color: #000;
-        background: #0d0d0d;
+        background: #fff;
         border: 1px solid #09c;
     }
 
