@@ -160,7 +160,7 @@ h3:hover > a.headerlink {
 h2 {
     font-size: 1.5em;
     margin-bottom: 0.5em;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid #ff0000;
 }
 
 h3 {
@@ -288,13 +288,13 @@ table.pretty2 {
 
     .pretty2 th {
         padding: 0.35em;
-        background: #eee;
-        border: 1px solid #bbb;
+        background: #0d0d0d;
+        border: 1px solid #ff0000;
     }
 
     .pretty2 td {
         padding: 0.35em;
-        border: 1px dotted #bbb;
+        border: 1px solid	#ff0000;
     }
 
 table.compact {
@@ -470,7 +470,7 @@ table thead th.sorter-false {
         clear: both;
         font-size: 1em;
         margin-top: 1.5em;
-        border-bottom: 1px dotted #bbb;
+        border-bottom: 1px solid #bbb;
     }
 
     #news .timestamp {
@@ -485,7 +485,8 @@ table thead th.sorter-false {
     background: ##0d0d0d;
     font-size: 15px;
     padding: 2px 10px;
-    color: white;
+    color: #ff0000;
+	border: 1px solid #ff0000;
 }
 
     #news a:active {
@@ -498,7 +499,7 @@ h3 span.arrow {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #030303;
+    border-top: 6px solid #ff0000;
     margin: 0 auto;
     font-size: 0;
     line-height: 0px;
@@ -509,7 +510,7 @@ h3 span.arrow {
     padding: 1em 0.75em;
     background: #0d0d0d;
     color: #ff0000;
-    border: 1px solid #ff0000;
+	border: 1px solid #ff0000;
 }
 
     #pkgsearch label {
@@ -526,7 +527,7 @@ h3 span.arrow {
         border: 1px solid #ff0000;
     }
 
-    .pkgsearch-typeahead {
+    .pkgsearch-typeahead {d
         position: absolute;
         top: 100%;
         left: 0;
@@ -671,7 +672,7 @@ div.news-article .article-info {
 
 /* download page */
 #arch-downloads h3 {
-    border-bottom: 1px dotted #bbb;
+    border-bottom: 1px solid #bbb;
 }
 
 /* pkglists/devlists */
