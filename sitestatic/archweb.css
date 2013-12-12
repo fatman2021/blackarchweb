@@ -521,14 +521,10 @@ h3 span.arrow {
         width: 10em;
         float: right;
         font-size: 1em;
-        color: #000;
+        color: #ff0000;
         background: #262626;
         border: 1px solid #ff0000;
     }
-
-	#pkgsearch focus {
-		color
-	}
 
     .pkgsearch-typeahead {
         position: absolute;
