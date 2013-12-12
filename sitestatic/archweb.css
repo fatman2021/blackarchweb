@@ -526,6 +526,9 @@ h3 span.arrow {
         border: 1px solid #ff0000;
     }
 
+	#pkgsearch focus {
+		color
+
     .pkgsearch-typeahead {
         position: absolute;
         top: 100%;
