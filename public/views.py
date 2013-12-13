@@ -96,7 +96,7 @@ def download(request):
     context = {
         'release': release,
         'releng_iso_url': settings.ISO_LIST_URL,
-        'releng_pxeboot_url': settings.PXEBOOT_URL,
+#        'releng_pxeboot_url': settings.PXEBOOT_URL,
         'mirror_urls': _mirror_urls,
     }
     return render(request, 'public/download.html', context)
