@@ -13,7 +13,7 @@
  */
 
 /* container for the entire bar */
-#archnavbar { height: 40px !important; padding: 10px 15px !important; background: #000 !important; border-bottom: 5px #ff0000 solid !important; }
+#archnavbar { height: 40px !important; padding: 10px 15px !important; background: #000 !important; border-bottom: 5px #5DFC0A solid !important; }
 #archnavbarlogo { float: left !important; margin: 0 !important; padding: 0 !important; height: 40px !important; width: 190px !important; background: url('archnavbar/blackarchlinux-clear.png') no-repeat !important; }
 
 /* move the heading text offscreen */
@@ -27,7 +27,7 @@
 #archnavbarlist li { float: left !important; font-size: 14px !important; font-family: sans-serif !important; line-height: 45px !important; padding-right: 15px !important; padding-left: 15px !important; }
 
 /* style the links */
-#archnavbarlist li a { color: #FF0000; font-weight: bold !important; text-decoration: none !important; }
+#archnavbarlist li a { color: #5DFC0A; font-weight: bold !important; text-decoration: none !important; }
 #archnavbarlist li a:hover { color: white !important; text-decoration: underline !important; }
 
 /* END ARCH GLOBAL NAVBAR */
@@ -43,7 +43,7 @@
 body {
     min-width: 650px;
     background: #000;
-    color: #FF0000;
+    color: #5DFC0A;
     font: normal 100% sans-serif;
     text-align: center;
 }
@@ -130,7 +130,7 @@ a {
 
     a:link,
     th a:visited {
-        color: #ff0000;
+        color: #5DFC0A;
     }
 
     a:visited {
@@ -160,7 +160,7 @@ h3:hover > a.headerlink {
 h2 {
     font-size: 1.5em;
     margin-bottom: 0.5em;
-    border-bottom: 1px solid #ff0000;
+    border-bottom: 1px solid #5DFC0A;
 }
 
 h3 {
@@ -204,7 +204,7 @@ div.box {
     margin-bottom: 1.5em;
     padding: 0.65em;
     background: #0d0d0d;
-    border: 1px solid #ff0000;
+    border: 1px solid #5DFC0A;
 }
 
 #footer {
@@ -289,12 +289,12 @@ table.pretty2 {
     .pretty2 th {
         padding: 0.35em;
         background: #0d0d0d;
-        border: 1px solid #ff0000;
+        border: 1px solid #5DFC0A;
     }
 
     .pretty2 td {
         padding: 0.35em;
-        border: 1px solid	#ff0000;
+        border: 1px solid	#5DFC0A;
     }
 
 table.compact {
@@ -454,7 +454,7 @@ table thead th.sorter-false {
         }
 
 		#news dt{
-			color:#ff0000
+			color:#5DFC0A
 		}
 
     #news .more {
@@ -485,8 +485,8 @@ table thead th.sorter-false {
     background: ##0d0d0d;
     font-size: 15px;
     padding: 2px 10px;
-    color: #ff0000;
-	border: 1px solid #ff0000;
+    color: #5DFC0A;
+	border: 1px solid #5DFC0A;
 }
 
     #news a:active {
@@ -499,7 +499,7 @@ h3 span.arrow {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #ff0000;
+    border-top: 6px solid #5DFC0A;
     margin: 0 auto;
     font-size: 0;
     line-height: 0px;
@@ -509,8 +509,8 @@ h3 span.arrow {
 #pkgsearch {
     padding: 1em 0.75em;
     background: #0d0d0d;
-    color: #ff0000;
-	border: 1px solid #ff0000;
+    color: #5DFC0A;
+	border: 1px solid #5DFC0A;
 }
 
     #pkgsearch label {
@@ -522,9 +522,9 @@ h3 span.arrow {
         width: 10em;
         float: right;
         font-size: 1em;
-        color: #ff0000;
+        color: #5DFC0A;
         background: #262626;
-        border: 1px solid #ff0000;
+        border: 1px solid #5DFC0A;
     }
 
     .pkgsearch-typeahead {d
