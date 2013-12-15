@@ -774,8 +774,8 @@ table.results {
     #pkgdetails #detailslinks > div {
         padding: 0.5em;
         margin-bottom: 1em;
-        background: #eee;
-        border: 1px solid #bbb;
+        background: #4c4c4c;
+        border: 1px solid #5DFC0A;
     }
 
 #pkgdetails #actionlist .flagged {
@@ -814,8 +814,8 @@ table.results {
 }
 
 #pkgdetails #metadata h3 {
-    background: #555;
-    color: #fff;
+    background: #4c4c4c;
+    color: #5DFC0A;
     font-size: 1em;
     margin-bottom: 0.5em;
     padding: 0.2em 0.35em;
