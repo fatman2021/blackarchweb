@@ -349,6 +349,7 @@ input[type=text],
 input[type=password],
 textarea {
     padding: 0.10em;
+	background: #000;
 }
 
 form.general-form label,
