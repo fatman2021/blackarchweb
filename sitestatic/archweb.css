@@ -91,6 +91,8 @@ input {
 
 select[multiple] {
     padding: 1px 0;
+	color: #5DFC0A;
+	background: #000;
 }
 
     select[multiple] option {
@@ -99,6 +101,8 @@ select[multiple] {
 
 input[type=submit] {
     padding: 0 0.6em;
+	color: #5DFC0A;
+	background: #000;
 }
 
 .clear {
