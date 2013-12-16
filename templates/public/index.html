@@ -3,8 +3,8 @@
 {% load static from staticfiles %}
 
 {% block head %}
-<link rel="alternate" type="application/rss+xml" title="BlackArchLinux News Updates" href="/feeds/news/" />
-<link rel="alternate" type="application/rss+xml" title="BlackArchLinux Package Updates" href="/feeds/packages/" />
+<link rel="alternate" type="application/rss+xml" title="BlackArch News Updates" href="/feeds/news/" />
+<link rel="alternate" type="application/rss+xml" title="BlackArch Package Updates" href="/feeds/packages/" />
 {% endblock %}
 
 {% block content_left %}
@@ -12,7 +12,7 @@
 <div id="intro" class="box">
     <h2>A simple, lightweight pentest distribution</h2>
 
-    <p>You've reached the website for <strong>BlackArchLinux</strong>, a
+    <p>You've reached the website for <strong>BlackArch</strong>, a
     lightweight and flexible Pentest Linux® distribution that tries to Keep It
     Simple.</p>
 
@@ -20,12 +20,12 @@
     x86-64 architectures. We currently have 474 tools, which is constantly growing.
 
     <p>Our strong community is diverse and helpful, and we pride ourselves
-    on the range of skillsets and uses for BlackArchLinux that stem from it. Come
+    on the range of skillsets and uses for BlackArch that stem from it. Come
     hang out with us on IRC or check out our install or GitHub page if you want to learn more
-    about BlackArchLinux.</p>
+    about BlackArch.</p>
 
     <p class="readmore"><a href="{% url 'page-about' %}"
-        title="Learn more about BlackArchLinux">Learn more...</a></p>
+        title="Learn more about BlackArch">Learn more...</a></p>
 </div>
 
 <div id="news">
@@ -124,7 +124,7 @@
     <h4>Support</h4>
 
     <ul>
-        <li><a href="{% url 'page-donate' %}" title="Help support BlackArchLinux">Donate</a></li>
+        <li><a href="{% url 'page-donate' %}" title="Help support BlackArch">Donate</a></li>
     </ul>
 
     <h4>Tools</h4>
@@ -139,7 +139,7 @@
     <h4>Development</h4>
 
     <ul>
-        <li><a href="https://github.com/BlackArchLinux/blackarchlinux"
+        <li><a href="https://github.com/BlackArch/blackarchlinux"
             title="Official Arch projects (git)">Projects in Git</a></li>
    {% comment %}     <li><a href="{% url 'page-svn' %}"
             title="View SVN entries for packages">SVN Repositories</a></li> {% comment %}
@@ -161,7 +161,7 @@
         <li><a href="{% url 'page-keys' %}"
             title="Package/Database signing master keys">Signing Master Keys</a></li>
         <li><a href="https://wiki.archlinux.org/index.php/Arch_Linux_Press_Review"
-            title="BlackArchLinux in the media">Press Coverage</a></li>
+            title="BlackArch in the media">Press Coverage</a></li>
    {% comment %}     <li><a href="{% url 'page-art' %}" title="Arch logos and other artwork for promotional use">Logos &amp; Artwork</a></li> {% endcomment %}
         <li><a href="{% url 'news-list' %}" title="News Archives">News Archives</a></li>
         <li><a href="/feeds/" title="Various RSS Feeds">RSS Feeds</a></li>

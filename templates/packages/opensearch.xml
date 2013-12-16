@@ -1,8 +1,8 @@
 {% load static from staticfiles %}<?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-	<ShortName>BlackArchLinux Packages</ShortName>
-	<LongName>BlackArchLinux Package Repository Search</LongName>
-	<Description>Search the BlackArchLinux package repositories by keyword in package names and descriptions.</Description>
+	<ShortName>BlackArch Packages</ShortName>
+	<LongName>BlackArch Package Repository Search</LongName>
+	<Description>Search the BlackArch package repositories by keyword in package names and descriptions.</Description>
 	<Tags>linux archlinux package software</Tags>
 	<Image height="16" width="16" type="image/x-icon">{{ domain }}{% static "favicon.ico" %}</Image>
 	<Image height="64" width="64" type="image/png">{{ domain }}{% static "logos/icon-transparent-64x64.png" %}</Image>

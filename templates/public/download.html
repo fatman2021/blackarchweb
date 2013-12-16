@@ -3,11 +3,11 @@
 {% load static from staticfiles %}
 {% load flags %}
 
-{% block title %}BlackArchLinux - Install{% endblock %}
+{% block title %}BlackArch - Install{% endblock %}
 
 {% block head %}
 <link rel="stylesheet" type="text/css" href="{% static "flags/fam.css" %}" media="screen, projection" />
-<link rel="alternate" type="application/rss+xml" title="BlackArchLinux Releases" href="/feeds/releases/" />
+<link rel="alternate" type="application/rss+xml" title="BlackArch Releases" href="/feeds/releases/" />
 {% endblock %}
 
 {% block navbarclass %}anb-download{% endblock %}
@@ -15,13 +15,13 @@
 {% block content %}
 <div id="arch-downloads" class="box">
 
-    <h2>BlackArchLinux Downloads</h2>
+    <h2>BlackArch Downloads</h2>
 
     <h3>Release Info</h3>
 
     <p>The image can be burned to a CD, mounted as an ISO file,
     or be directly written to a USB stick using a utility like `dd`. It
-    is intended for new installations only; an existing BlackArchLinux system
+    is intended for new installations only; an existing BlackArch system
     can always be updated with `pacman -Syu`.</p>
 
     <ul>
@@ -32,9 +32,9 @@
         <li><strong>Resources:</strong>
             <ul>
                 <li><a href="https://bugs.blackarchlinux.org/index.php?project=6"
-                    title="BlackArchLinux Bugtracker:Release Engineering">Bug Tracker</a></li>
+                    title="BlackArch Bugtracker:Release Engineering">Bug Tracker</a></li>
                 <li><a href="https://mailman.blackarchlinux.org/mailman/listinfo/arch-releng"
-                    title="BlackArchLinux Release Engineering mailing list">Mailing List</a></li>
+                    title="BlackArch Release Engineering mailing list">Mailing List</a></li>
             </ul>
         </li>
     </ul>
@@ -69,7 +69,7 @@
     <p>If you have a wired connection, you can boot the latest release directly over the network.</p>
     <ul>
         <li><a href="{{ releng_pxeboot_url }}"
-            title="BlackArchLinux Netboot Live System">BlackArchLinux Netboot</a></li>
+            title="BlackArch Netboot Live System">BlackArch Netboot</a></li>
     </ul>
 
     <h3>HTTP Direct Downloads</h3>

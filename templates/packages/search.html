@@ -2,12 +2,12 @@
 {% load cycle from future %}
 {% load package_extras %}
 
-{% block title %}BlackArchLinux - Package Database{% endblock %}
+{% block title %}BlackArch - Package Database{% endblock %}
 {% block navbarclass %}anb-packages{% endblock %}
 
 {% block head %}
 {% if is_paginated and page_obj.number > 1 %}<meta name="robots" content="noindex, nofollow"/>{% endif %}
-<link rel="alternate" type="application/rss+xml" title="BlackArchLinux Package Updates" href="/feeds/packages/" />
+<link rel="alternate" type="application/rss+xml" title="BlackArch Package Updates" href="/feeds/packages/" />
 {% endblock %}
 
 {% block content %}
@@ -112,7 +112,7 @@
 {% endif %}
 
 <div id="pkglist-about" class="box">
-    <p>You are browsing the BlackArchLinux package database. From here you can find
+    <p>You are browsing the BlackArch package database. From here you can find
     detailed information about packages located in the official supported repositories.
     For unsupported packages, browse the <a href="https://aur.archlinux.org/"
         title="AUR package database">Arch User Repository (AUR).</a></p>

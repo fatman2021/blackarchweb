@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>{% block title %}BlackArchLinux{% endblock %}</title>
+    <title>{% block title %}BlackArch{% endblock %}</title>
     <link rel="stylesheet" type="text/css" href="{% static "archweb.css" %}" media="screen, projection" />
     <link rel="icon" type="image/x-icon" href="{% static "favicon.ico" %}" />
     <link rel="shortcut icon" type="image/x-icon" href="{% static "favicon.ico" %}" />
@@ -10,20 +10,20 @@
     <link rel="apple-touch-icon" sizes="72x72" href="{% static "logos/apple-touch-icon-72x72.png" %}" />
     <link rel="apple-touch-icon" sizes="114x114" href="{% static "logos/apple-touch-icon-114x114.png" %}" />
     <link rel="apple-touch-icon" sizes="144x144" href="{% static "logos/apple-touch-icon-144x144.png" %}" />
-    <link rel="search" type="application/opensearchdescription+xml" href="{% url 'opensearch-packages' as osp %}{{ osp }}" title="BlackArchLinux Packages" />
+    <link rel="search" type="application/opensearchdescription+xml" href="{% url 'opensearch-packages' as osp %}{{ osp }}" title="BlackArch Packages" />
     {% block head %}{% endblock %}
 </head>
 <body class="{% if user.is_authenticated %}devmode {% endif %}{% block bodyclass %}{% endblock %}">
     <div id="archnavbar" class="{% block navbarclass %}anb-home{% endblock %}">
-        <div id="archnavbarlogo"><h1><a href="/" title="Return to the main page">BlackArchLinux</a></h1></div>
+        <div id="archnavbarlogo"><h1><a href="/" title="Return to the main page">BlackArch</a></h1></div>
         <div id="archnavbarmenu">
             <ul id="archnavbarlist">
-                <li id="anb-home"><a href="/" title="BlackArchLinux news, packages, projects and more">Home</a></li>
+                <li id="anb-home"><a href="/" title="BlackArch news, packages, projects and more">Home</a></li>
                 <li id="anb-packages"><a href="/packages/" title="BlacArchLinux Package Database">Packages</a></li>
-                <li id="anb-forums"><a href="https://github.com/BlackArchLinux/blackarchlinux" title="BlackArchLinux GitHub Page">GitHub</a></li>
+                <li id="anb-forums"><a href="https://github.com/BlackArch/blackarchlinux" title="BlackArch GitHub Page">GitHub</a></li>
                 <li id="anb-wiki"><a href="https://wiki.archlinux.org/" title="Arch Linux documentation">Arch Wiki</a></li>
-                <li id="anb-bugs"><a href="https://github.com/BlackArchLinux/blackarchlinux/issues" title="Report and track bugs">Bugs</a></li>
-                <li id="anb-download"><a href="{% url 'page-download' as pdl %}{{ pdl }}" title="Get BlackArchLinux">Download</a></li>
+                <li id="anb-bugs"><a href="https://github.com/BlackArch/blackarchlinux/issues" title="Report and track bugs">Bugs</a></li>
+                <li id="anb-download"><a href="{% url 'page-download' as pdl %}{{ pdl }}" title="Get BlackArch">Download</a></li>
             </ul>
         </div>
     </div>
@@ -72,7 +72,7 @@
 
             <p>The Arch Linux name and logo are recognized
             <a href="https://wiki.archlinux.org/index.php/DeveloperWiki:TrademarkPolicy"
-                title="BlackArchLinux Trademark Policy">trademarks</a>. Some rights reserved.</p>
+                title="BlackArch Trademark Policy">trademarks</a>. Some rights reserved.</p>
 
             <p>The registered trademark Linux® is used pursuant to a sublicense from LMI,
             the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.</p>

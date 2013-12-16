@@ -33,12 +33,12 @@ USER_LISTS = {
     'devs': {
         'user_type': 'Developers',
         'user_title': 'Developer',
-        'description': "This is a list of the current BlackArchLinux Developers. They maintain the [core] and [extra] package repositories in addition to doing any other developer duties.",
+        'description': "This is a list of the current BlackArch Developers. They maintain the [core] and [extra] package repositories in addition to doing any other developer duties.",
     },
     'tus': {
         'user_type': 'Trusted Users',
         'user_title': 'Trusted User',
-        'description': "Here are all your friendly BlackArchLinux Trusted Users who are in charge of the [community] repository.",
+        'description': "Here are all your friendly BlackArch Trusted Users who are in charge of the [community] repository.",
     },
     'fellows': {
         'user_type': 'Fellows',
