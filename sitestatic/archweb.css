@@ -14,7 +14,7 @@
 
 /* container for the entire bar */
 #archnavbar { height: 40px !important; padding: 10px 15px !important; background: #000 !important; border-bottom: 5px #5DFC0A solid !important; }
-#archnavbarlogo { float: left !important; margin: 0 !important; padding: 0 !important; height: 40px !important; width: 190px !important; background: url('archnavbar/blackarchlinux-all-green-600x200.png') no-repeat !important; }
+#archnavbarlogo { float: left !important; margin: 0 !important; padding: 0 !important; height: 40px !important; width: 190px !important; background: url('archnavbar/blackarch-all-green-600x200.png') no-repeat !important; }
 
 /* move the heading text offscreen */
 #archnavbarlogo h1 { margin: 0 !important; padding: 0 !important; text-indent: -9999px !important; }
