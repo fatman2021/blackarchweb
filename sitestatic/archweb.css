@@ -138,12 +138,12 @@ a {
     }
 
     a:visited {
-        color: #ffa500;
+        color: #ff0000;
     }
 
     a:hover {
         text-decoration: underline;
-        color: #ffa500;
+        color: #ff0000;
     }
 
     a:active {
